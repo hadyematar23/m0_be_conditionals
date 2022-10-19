@@ -14,4 +14,4 @@ else
     random_number.odd? 
     print "odd"
 
-end 
+end ˚
