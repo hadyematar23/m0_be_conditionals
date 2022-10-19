@@ -61,24 +61,26 @@ puts "BREAK TO PART 2"
 
 puts 4 < 9
 #YOU DO: Explain.
-puts "This line of code is asking the computer to evaluate whether the integer numbered '4' is less than the integer numbered '9'. It is then asking the computer to print that evaluation to the console. The statement will evaluate as true." 
+puts "This line of code is asking the computer to evaluate whether the integer numbered '4' is less than the integer numbered '9'. It is then asking the computer to print that boolean response to the console. The statement will evaluate as true." 
 
 books = 3
 puts 4 < books
 # YOU DO: Explain.
-puts "This line of code is assigning the the integer '3' to the variable 'books' and then asking the computer to evaluate whether the integer '4' is less than the assignment to the variable 'books.' Finally, it is asking the computer to print that result out to the console."
+puts "This line of code is assigning the the integer '3' to the variable 'books' and then asking the computer to evaluate whether the integer '4' is less than the assignment to the variable 'books.' Finally, it is asking the computer to print that boolean response to the console."
 
 friends = 6
 siblings = 2
 puts friends > siblings
 # YOU DO: Explain.
+puts "This line of code is assigning the integer 6 to the variable friends and the integer 2 to the variable siblings, and then asking the computer to evaluate whether the value assigned to friends is greater than the value assigned to siblings.Finally, it is asking the computer to print that boolean response out to the console. This should evaluate as true."
 
 attendees = 9
 meals = 8
 puts attendees != meals
 # YOU DO: Explain.
+puts "This line of code is assigning the integer 9 to the variable attendees and the integer 8 to the variable meals. Then it asks the computer to evaluate whether the value assigned to attendees is NOT equal to the value assigned to meals. It then asks the boolean response to be printed to the console. This will evaluate to true."
 
-
+puts "BREAK TO PART 3"
 #-------------------
 # PART 3: Logical Operators
 #-------------------
@@ -99,15 +101,22 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
-
+puts loves_to_play && loves_treats
 
 # Determine if the dog loves to play and loves the dog park
-
+puts loves_to_play && loves_dog_park
 
 # Determine if the dog loves to play or loves the dog park
+puts loves_to_play || loves_dog_park
 
 
+puts "PUPPY QUESTION"
 # Determine if the dog loves to play and is a puppy
+# assuming that puppy is any age under 2 years old
+puts loves_to_play || (age < 2)
+
 
 # What did your final line of code evaluate to? Why do you think that is? Explain.
 # ANSWER:
+puts "My final line of code evaluated to true as I personally determined the age of a puppy to be any age that is less than 2 years of age and put that definition into the second part of the equation."
+puts "Because we know from the given input that the age of the animal was one year old (we know from the variable assignment that was given to us), the integer 1 is less than 2, my definition of a puppy, and therefore is a puppy."
