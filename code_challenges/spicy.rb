@@ -2,25 +2,16 @@
 
 random_number = rand(10000000000000)
 
-if 
-random_number % 3 == 0 && random_number % 5 == 0 
+if random_number % 3 == 0 && random_number % 5 == 0 
+    print "Fizzbuss"
 
-print "Fizzbuss"
-
-elsif 
-
-    random_number % 3 == 0 
-
+elsif random_number % 3 == 0 
     print "fizz"
 
-elsif 
-
-    random_number % 5 == 0 
-
+elsif random_number % 5 == 0 
     print "Buzz"
 
 else 
-
     print random_number
 
 end 

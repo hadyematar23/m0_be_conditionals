@@ -17,14 +17,11 @@
 good_driving_record = true 
 age = 23
 
-if 
-    (good_driving_record == true) && age > 25 
+if (good_driving_record == true) && age > 25 
     print "you get a discount"
-elsif 
-    (good_driving_record == true) || age > 25
+elsif (good_driving_record == true) || age > 25
     print "pony up the money but you can still drive"
-else 
-    (good_driving_record != true) && age <= 25 
+else (good_driving_record != true) && age <= 25 
     print "sorry, daddy's gotta sign"
 
 end 

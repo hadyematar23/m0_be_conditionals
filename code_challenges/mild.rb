@@ -6,12 +6,9 @@ random_number = rand(10000)
 
 random_number
 
-if 
-    random_number.even? 
+if random_number.even? 
     print "even"
 
-else 
-    random_number.odd? 
+else random_number.odd? 
     print "odd"
-
-end ˚
+end 
