@@ -68,8 +68,7 @@ puts "PIZZA QUESTION
 cups_of_flour = 3
 has_sauce = true
 
-if
-  cups_of_flour >=2 && (has_sauce == true) 
+if cups_of_flour >=2 && (has_sauce == true) 
   print "I can make pizza"
 else 
   print "I cannot make pizza"
